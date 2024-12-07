@@ -1,0 +1,102 @@
+/* 공통 스타일 */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* 헤더와 푸터 */
+#header-container, #footer-container {
+    width: 100%;
+}
+
+/* 메인 콘텐츠 */
+.main-content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+/* 이미지 컨테이너 */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 텍스트 오버레이 스타일 */
+.overlay-text10 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'IstokWeb-Regular', sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    max-width: 80%;
+    box-sizing: border-box;
+}
+
+.overlay-text11 {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'IstokWeb-Regular', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.overlay-text12 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'IstokWeb-Regular', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* 파일 업로드 및 결과 섹션 */
+.overlay-content {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1;
+    text-align: left;
+}
+
+.upload-section .upload-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.result-section {
+    margin-top: 20px;
+}

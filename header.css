@@ -1,0 +1,57 @@
+/* 공통 스타일 */
+.site-header,
+.site-header * {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    background: #667550;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.header-item {
+    color: #ffffff;
+    font-family: "IstokWeb-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+}
+
+.site-header-eco-sort {
+    font-size: 30px;
+    font-weight: 500;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+}
+
+.site-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.site-header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.site-header-right .header-item {
+    margin-left: 20px;
+}

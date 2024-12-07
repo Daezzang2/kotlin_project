@@ -1,0 +1,163 @@
+/* 전체 페이지 스타일 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* 배경 색상 */
+body {
+  background-color: #DBD6C5; /* 부드러운 배경색 */
+  padding-left: 200px; /* 왼쪽 패딩 추가 */
+}
+
+/* 이미지 컨테이너 */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 화면 높이에 맞게 설정 */
+    overflow: hidden;
+
+}
+
+/* 배경 이미지 */
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* 텍스트 오버레이 스타일 */
+.overlay-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'IstokWeb-Regular', sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    max-width: 80%;
+    box-sizing: border-box;
+}
+
+.overlay-text2 {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'IstokWeb-Regular', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.overlay-text3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'IstokWeb-Regular', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.overlay-text4 {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'IstokWeb-Regular', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* 메인 콘텐츠 스타일 */
+.main-content {
+    padding: 20px;
+}
+
+/* 텍스트 콘텐츠 스타일 */
+.text-content {
+    margin-top: 20px;
+}
+
+/* 로고 스타일 */
+.logo-container {
+    text-align: center;
+    margin-top: 50px; /* 로고가 이미지와 가까이 위치하도록 설정 */
+}
+
+.logo {
+    width: 250px; /* 로고 크기 설정 */
+    height: auto;
+}
+
+/* 각 글에 대한 스타일 */
+.div8,
+.eco-sort2,
+.ai,
+.ai2,
+.div11,
+.div12,
+.div13,
+.eco-sort3,
+.eco-sort6,
+.div9 {
+    color: #503A13; /* 텍스트 색상 변경 */
+}
+
+/* 기타 스타일 */
+.div8 {
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center; /* 왼쪽 정렬 */
+}
+
+.eco-sort2,.eco-sort3,.eco-sort6 {
+    font-size: 40px;
+    line-height: 1.5; /* 텍스트 줄 간격 */
+    font-weight: bold;
+    margin-top: 150px;
+    text-decoration: underline;
+    padding: 10px;
+    font-size: 40px;
+    margin-left: 200px; /* 왼쪽 여백을 설정 */
+}
+
+.ai, .ai2 {
+    font-size: 30px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        padding-left: 200px; /* 왼쪽 패딩 설정 */
+}
+
+.div11, .div12, .div13 {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding-left: 200px; /* 왼쪽 패딩 설정 */
+}
+
+.div9 {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 100px;
+    text-align: left; /* 왼쪽 정렬 */
+    font-size: 30px;
+    margin-left: 200px; /* 왼쪽 여백을 설정 */
+}
